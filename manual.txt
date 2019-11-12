@@ -4,12 +4,16 @@ Primeiro, criamos no github um repositorio com nome GitParaEnsinoMedioNovotec
 
 -Seguinte, fizemos um git clone do repositorio para nossa PC
 
+-Configuramos o nome do Usuario e o email do usuario
+
 -Criamos um Arquivo chamado manual.txt
 
 -Fizemos o Commit e finalmente um push na Master
 
 Mostramos os códigos seguidos:
 git clone (url do repositorio)
+git config --global user.name "Yohel D. Larrauri Pizarro" (uma vez só no git)
+git config --global user.email "yohel.larrpizarro@gmail.com" (uma vez só no git)
 git status
 git add .
 git commit -m "Digitamos um texto que possa descrever o que a gente fez"
